@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TastyBite Restaurant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">TastyBite</div>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu-section">Menu</a></li>
+            <li><a href="#booking">Book Table</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Delicious Food, Happy Mood</h1>
+    <p>Experience the taste of excellence.</p>
+    <a href="#booking" class="btn">Reserve a Table</a>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to TastyBite Restaurant. We serve fresh,
+        delicious meals prepared with passion and quality ingredients.
+    </p>
+</section>
+
+<section id="menu-section">
+    <h2>Popular Dishes</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Pizza</h3>
+            <p>Cheesy delight with fresh toppings.</p>
+        </div>
+
+        <div class="card">
+            <h3>Burger</h3>
+            <p>Juicy grilled burger with crispy fries.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pasta</h3>
+            <p>Italian pasta with rich creamy sauce.</p>
+        </div>
+    </div>
+</section>
+
+<section id="booking">
+    <h2>Book a Table</h2>
+
+    <form id="bookingForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="date" required>
+        <input type="time" required>
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Vadodara, Gujarat</p>
+    <p>📞 +91 9876543210</p>
+    <p>✉️ info@tastybite.com</p>
+</section>
+
+<footer>
+    <p>© 2026 TastyBite Restaurant</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
